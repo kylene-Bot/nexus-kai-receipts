@@ -1,0 +1,11 @@
+**Root cause:** The grep pattern `openclaw-gateway` doesn't match the actual process command, which contains `openclaw/dist/index.js gateway` (space, not hyphen).
+
+**Minimal fix:**
+```bash
+CURRENT_PID=$(ps aux | grep "openclaw/dist/index.js gateway" | grep -v grep | awk '{print $2}' | head -1)
+```
+
+**Verify:**
+```bash
+ps aux | grep "openclaw/dist/index.js gateway" | grep -v grep | awk '{print $2}' | head -1
+```

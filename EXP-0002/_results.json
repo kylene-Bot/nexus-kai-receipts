@@ -1,0 +1,190 @@
+{
+  "started": "2026-05-28T09:39:48.836514",
+  "paper": {
+    "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
+    "id": "http://arxiv.org/abs/2605.28812v1"
+  },
+  "runs": [
+    {
+      "task": "debug-python",
+      "model": "claude-cli/claude-opus-4-7",
+      "slug": "claude-opus-4-7",
+      "trial": 1,
+      "latency_sec": 12.5,
+      "ok": true,
+      "chars": 414,
+      "file": "debug-python-claude-opus-4-7-t1.txt"
+    },
+    {
+      "task": "debug-python",
+      "model": "claude-cli/claude-opus-4-7",
+      "slug": "claude-opus-4-7",
+      "trial": 2,
+      "latency_sec": 11.6,
+      "ok": true,
+      "chars": 345,
+      "file": "debug-python-claude-opus-4-7-t2.txt"
+    },
+    {
+      "task": "debug-python",
+      "model": "openai-codex/gpt-5.5",
+      "slug": "gpt-5-5",
+      "trial": 1,
+      "latency_sec": 15.6,
+      "ok": true,
+      "chars": 401,
+      "file": "debug-python-gpt-5-5-t1.txt"
+    },
+    {
+      "task": "debug-python",
+      "model": "openai-codex/gpt-5.5",
+      "slug": "gpt-5-5",
+      "trial": 2,
+      "latency_sec": 11.1,
+      "ok": true,
+      "chars": 346,
+      "file": "debug-python-gpt-5-5-t2.txt"
+    },
+    {
+      "task": "debug-python",
+      "model": "google/gemini-3.1-pro-preview",
+      "slug": "gemini-3-1-pro",
+      "trial": 1,
+      "latency_sec": 19.5,
+      "ok": true,
+      "chars": 527,
+      "file": "debug-python-gemini-3-1-pro-t1.txt"
+    },
+    {
+      "task": "debug-python",
+      "model": "google/gemini-3.1-pro-preview",
+      "slug": "gemini-3-1-pro",
+      "trial": 2,
+      "latency_sec": 32.6,
+      "ok": true,
+      "chars": 525,
+      "file": "debug-python-gemini-3-1-pro-t2.txt"
+    },
+    {
+      "task": "cold-email",
+      "model": "claude-cli/claude-opus-4-7",
+      "slug": "claude-opus-4-7",
+      "trial": 1,
+      "latency_sec": 13.3,
+      "ok": true,
+      "chars": 514,
+      "file": "cold-email-claude-opus-4-7-t1.txt"
+    },
+    {
+      "task": "cold-email",
+      "model": "claude-cli/claude-opus-4-7",
+      "slug": "claude-opus-4-7",
+      "trial": 2,
+      "latency_sec": 17.2,
+      "ok": true,
+      "chars": 574,
+      "file": "cold-email-claude-opus-4-7-t2.txt"
+    },
+    {
+      "task": "cold-email",
+      "model": "openai-codex/gpt-5.5",
+      "slug": "gpt-5-5",
+      "trial": 1,
+      "latency_sec": 11.7,
+      "ok": true,
+      "chars": 455,
+      "file": "cold-email-gpt-5-5-t1.txt"
+    },
+    {
+      "task": "cold-email",
+      "model": "openai-codex/gpt-5.5",
+      "slug": "gpt-5-5",
+      "trial": 2,
+      "latency_sec": 11.9,
+      "ok": true,
+      "chars": 433,
+      "file": "cold-email-gpt-5-5-t2.txt"
+    },
+    {
+      "task": "cold-email",
+      "model": "google/gemini-3.1-pro-preview",
+      "slug": "gemini-3-1-pro",
+      "trial": 1,
+      "latency_sec": 15.1,
+      "ok": true,
+      "chars": 420,
+      "file": "cold-email-gemini-3-1-pro-t1.txt"
+    },
+    {
+      "task": "cold-email",
+      "model": "google/gemini-3.1-pro-preview",
+      "slug": "gemini-3-1-pro",
+      "trial": 2,
+      "latency_sec": 21.7,
+      "ok": true,
+      "chars": 492,
+      "file": "cold-email-gemini-3-1-pro-t2.txt"
+    },
+    {
+      "task": "summarize",
+      "model": "claude-cli/claude-opus-4-7",
+      "slug": "claude-opus-4-7",
+      "trial": 1,
+      "latency_sec": 12.9,
+      "ok": true,
+      "chars": 818,
+      "file": "summarize-claude-opus-4-7-t1.txt"
+    },
+    {
+      "task": "summarize",
+      "model": "claude-cli/claude-opus-4-7",
+      "slug": "claude-opus-4-7",
+      "trial": 2,
+      "latency_sec": 11.9,
+      "ok": true,
+      "chars": 786,
+      "file": "summarize-claude-opus-4-7-t2.txt"
+    },
+    {
+      "task": "summarize",
+      "model": "openai-codex/gpt-5.5",
+      "slug": "gpt-5-5",
+      "trial": 1,
+      "latency_sec": 15.4,
+      "ok": true,
+      "chars": 667,
+      "file": "summarize-gpt-5-5-t1.txt"
+    },
+    {
+      "task": "summarize",
+      "model": "openai-codex/gpt-5.5",
+      "slug": "gpt-5-5",
+      "trial": 2,
+      "latency_sec": 15.0,
+      "ok": true,
+      "chars": 651,
+      "file": "summarize-gpt-5-5-t2.txt"
+    },
+    {
+      "task": "summarize",
+      "model": "google/gemini-3.1-pro-preview",
+      "slug": "gemini-3-1-pro",
+      "trial": 1,
+      "latency_sec": 21.6,
+      "ok": true,
+      "chars": 856,
+      "file": "summarize-gemini-3-1-pro-t1.txt"
+    },
+    {
+      "task": "summarize",
+      "model": "google/gemini-3.1-pro-preview",
+      "slug": "gemini-3-1-pro",
+      "trial": 2,
+      "latency_sec": 19.7,
+      "ok": true,
+      "chars": 795,
+      "file": "summarize-gemini-3-1-pro-t2.txt"
+    }
+  ],
+  "finished": "2026-05-28T09:44:39.014865"
+}

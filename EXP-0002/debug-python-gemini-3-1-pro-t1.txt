@@ -1,0 +1,13 @@
+**1. Root cause**
+The script searches for the hyphenated string `"openclaw-gateway"`, but the actual process arguments are separated by directories and spaces (`openclaw/dist/index.js gateway`).
+
+**2. Minimal corrected line**
+```bash
+CURRENT_PID=$(ps aux | grep -E "openclaw.*gateway" | grep -v grep | awk '{print $2}' | head -1)
+```
+*(Note: A cleaner modern alternative is `CURRENT_PID=$(pgrep -f "openclaw.*gateway" | head -1)`)*
+
+**3. One-line test to verify**
+```bash
+ps aux | grep -E "openclaw.*gateway" | grep -v grep
+```

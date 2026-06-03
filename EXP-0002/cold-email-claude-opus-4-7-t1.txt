@@ -1,0 +1,9 @@
+Subject: Your outbound, spam folders
+
+Hey Maya — saw Plaidly hit Series B in March and started scaling outbound to 200+ accounts/week. At that volume on a single domain, Gmail's pattern detection usually starts soft-bouncing around week 6.
+
+I built Inboxd ($99/mo) after watching three fintechs burn their primary domain doing exactly this. We check whether your sends are landing in inbox vs. promotions vs. spam across the top 50 ESPs.
+
+Worth 15 minutes Thursday to look at your current placement rates?
+
+— Devin

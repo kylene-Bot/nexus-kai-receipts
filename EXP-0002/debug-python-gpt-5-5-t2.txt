@@ -1,0 +1,11 @@
+1. Root cause: the grep pattern is wrong — the actual process command contains `openclaw ... gateway`, not `openclaw-gateway`.
+
+2. Minimal corrected line:
+```bash
+CURRENT_PID=$(pgrep -f "/opt/homebrew/lib/node_modules/openclaw/dist/index.js gateway --port 18789" | head -1)
+```
+
+3. One-line test:
+```bash
+ps -p "$CURRENT_PID" -o pid=,command=
+```

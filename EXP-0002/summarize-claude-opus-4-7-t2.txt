@@ -1,0 +1,4 @@
+- Center-of-Pressure (CoP) tactile representation preserves dense contact information while remaining robust enough for zero-shot sim-to-real transfer in contact-rich manipulation.
+- A differentiable-dynamics calibration scheme estimates taxel orientations without ground-truth force measurements, then CoP-conditioned RL policies are trained in simulation and deployed on a multi-fingered hand.
+- CoP-conditioned policies achieved zero-shot sim-to-real transfer on both peg-in-hole insertion and ball balancing, outperforming binary-contact and raw-taxel baselines (no specific numeric result reported in the abstract).
+- Evaluation is limited to two blind manipulation tasks on a single multi-fingered hand platform, leaving generalization to broader contact-rich settings unverified.

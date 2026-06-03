@@ -1,0 +1,4 @@
+- Core claim: Center-of-Pressure tactile representation enables robust zero-shot sim-to-real transfer for contact-rich dexterous manipulation while preserving dense contact information.
+- Methodology: CoP was paired with differentiable-dynamics sensor calibration and evaluated in simulation-to-real RL on blind peg-in-hole insertion and ball-balancing tasks.
+- Most important finding: CoP-conditioned policies achieved zero-shot sim-to-real transfer on a multi-fingered hand and outperformed binary-contact and raw-taxel baselines.
+- Most important limitation: Evaluation was limited to two tasks, so generalization to broader manipulation settings remains unproven.

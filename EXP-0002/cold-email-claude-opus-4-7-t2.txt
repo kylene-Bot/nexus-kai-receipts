@@ -1,0 +1,11 @@
+Subject: Your outbound, spam folder
+
+Hi Maya,
+
+Your Series B announcement crossed my desk last week — congrats on the Insight round. Plaid-adjacent fintechs typically see 18–24% of cold outbound silently filtered by Gmail/Outlook after scaling past 50 reps, which kills pipeline before reps ever see a "no reply."
+
+We run a $99/mo deliverability monitor that pinpoints which sending domains, IPs, and templates are landing in spam — most teams find one broken DKIM record paying for itself in week one.
+
+Worth a 15 minutes next Tuesday or Wednesday to check yours?
+
+— Jordan

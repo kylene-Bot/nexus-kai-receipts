@@ -1,0 +1,13 @@
+1. **Root cause:** The script greps for `openclaw-gateway`, but the actual process command line is `node .../openclaw/dist/index.js gateway --port 18789`, so the pattern never matches.
+
+2. **Minimal corrected line:**
+
+```bash
+CURRENT_PID=$(pgrep -f "openclaw/dist/index.js gateway --port 18789" | head -1)
+```
+
+3. **One-line test:**
+
+```bash
+pgrep -af "openclaw/dist/index.js gateway --port 18789"
+```

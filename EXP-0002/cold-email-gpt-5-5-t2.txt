@@ -1,0 +1,9 @@
+Subject: Outbound landing in spam?
+
+Hi [Name],
+
+Saw [Company] is scaling in the Plaid-adjacent fintech space—at Series B, every missed outbound reply probably has a real CAC cost.
+
+I built a $99/mo deliverability tool that shows whether your sales emails are landing in inbox, promotions, or spam before your team burns through leads.
+
+Worth a 15-minute look this week to see if spam placement is quietly dragging down your outbound?

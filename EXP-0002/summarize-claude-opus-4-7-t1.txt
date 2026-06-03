@@ -1,0 +1,4 @@
+- Center-of-Pressure offers a physics-grounded tactile representation that preserves dense contact information while remaining robust enough for zero-shot sim-to-real transfer in dexterous manipulation.
+- A differentiable-dynamics calibration scheme estimates taxel orientations without ground-truth force data, and the resulting representation is evaluated on blind peg-in-hole insertion and ball-balancing with a multi-fingered hand.
+- CoP-conditioned policies achieve zero-shot sim-to-real transfer and outperform both binary-contact and raw-taxel baselines (specific quantitative margins not reported in the abstract).
+- Evaluation is restricted to two blind contact-rich tasks on a single multi-fingered hand, leaving generalization across sensor hardware, object classes, and vision-equipped settings unverified.

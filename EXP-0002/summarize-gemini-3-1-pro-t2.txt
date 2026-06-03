@@ -1,0 +1,4 @@
+- Center-of-Pressure (CoP) serves as a physics-grounded tactile representation that preserves dense contact data while maintaining robustness for sim-to-real transfer.
+- The framework applies a differentiable dynamics-based sensor calibration to estimate taxel orientations without ground-truth force measurements, training reinforcement learning policies on the resulting CoP data.
+- CoP-conditioned policies achieved zero-shot sim-to-real transfer on a multi-fingered hand, outperforming binary-contact and raw-taxel baselines while emergently encoding physical properties like object mass (no specific numerical metrics were reported in the abstract).
+- The calibration scheme fundamentally depends on the availability and accuracy of a differentiable dynamics model to estimate orientations.
