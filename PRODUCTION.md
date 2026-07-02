@@ -49,6 +49,60 @@ gets logged in the table at the bottom — so "was it implemented?" is checkable
 
 ---
 
+## Positioning
+
+**Promise: "We test it so you don't pay to find out."**
+
+The niche stays AI (top-of-market RPM, $15–40 CPM, professional audience). The angle shifts
+from model horse-races to **purchase-intent testing**: the channel runs the tools, systems,
+and claims that people are about to spend money on, and publishes the receipts. Trend
+coverage stays (Goldie's real strength) but always as *the tester, not the seller* — when a
+model or tool drops, the video is "here's what it actually did on real tasks, same day,"
+never "here's my course about it."
+
+**Editorial rules (the moat — never break these):**
+- We never sell the thing we're testing.
+- Affiliate links only for tools that **passed our tests**, always disclosed. Failed tools
+  get named, not buried.
+- Sponsors never see results early and can't buy verdicts. This policy is public.
+- Every number said on camera recomputes from this repo.
+
+**Money ladder, in order:** AdSense (high-RPM niche does the work) → affiliate on passing
+tools → sponsorships under the published policy → the long-term asset: this receipts
+database as a public, machine-verified record of what was tested (the FutureTools model).
+
+---
+
+## Launch slate (EXP-0003 →)
+
+Each premise names the receipt up front — if we can't save a receipt for it, we don't make it.
+
+1. **"I paid for the $99/mo AI SEO tool so you don't have to."** 30-day run on a real site.
+   *Receipts:* daily ranking/traffic logs, every generated output, the invoice.
+   *Why it earns:* pure purchase intent; affiliate slot if it passes, better video if it fails.
+2. **"I built the '$7K/month faceless AI channel' the gurus sell."** Follow the sold blueprint
+   exactly (our own Claude → HeyGen → ElevenLabs pipeline — disclosed).
+   *Receipts:* cost per video, analytics, actual revenue.
+   *Why it earns:* tests the biggest claim in the niche; dogfoods our avatar stack on camera.
+3. **"New model drops → same-day receipts."** Recurring franchise: a fixed task battery run
+   within 24h of any major release (the EXP battery, made harder — tasks with real stakes).
+   *Receipts:* run log + outputs in this repo, per release.
+   *Why it earns:* owns the trend-coverage slot with a format nobody can fake.
+4. **"AI cold-outreach tools: do any actually book meetings?"** Same campaign, N tools,
+   identical lists. *Receipts:* send logs, reply rates, meetings booked.
+   *Why it earns:* B2B purchase intent — the highest-value advertiser audience in the niche.
+5. **"Can you tell this video is AI?"** The disclosed clone-launch video: how the avatar was
+   built, then the honest reveal + retention data from this channel as the experiment.
+   *Receipts:* our own analytics, the avatar source-data process.
+   *Why it earns:* converts the clone from suspicion into brand (the Dr. McCoy move) and is
+   the natural channel-relaunch video.
+6. **"I gave three AIs the same $500 freelance job."** Real brief, real client accept/reject —
+   EXP-0002 rebuilt with stakes and a mechanical gate (did the work get accepted?).
+   *Receipts:* briefs, outputs, client verdicts in the repo.
+   *Why it earns:* the model comparison people actually have money riding on.
+
+---
+
 ## Production rules (checkable, per video)
 
 **Hook (0:00–0:30)**
