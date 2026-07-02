@@ -1,4 +1,11 @@
-# Kylene — Persona Spec
+# Kylene Hayes — Persona Spec
+
+> **STATUS (2026-07-02):** Avatar candidate generated in HeyGen and approved against the
+> checklist — full name **Kylene Hayes**. Matches spec: copper-auburn waves, hazel eyes,
+> ink-blue background, charcoal blazer + silk top, gold jewelry. Remaining before lock:
+> (1) Edit look — reduce makeup, restore "light freckles, natural matte skin texture";
+> (2) alternate higher-neckline look for thumbnail stills; (3) 20–30s motion test with the
+> VID-0001 cold open. After lock: outfit variations only, never regenerate the face.
 
 The host is a disclosed AI presenter. Face and voice are both **custom-generated, never
 stock/library picks** — stock assets appear in other people's content and eventually
