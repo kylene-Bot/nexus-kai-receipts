@@ -146,6 +146,35 @@ Each premise names the receipt up front — if we can't save a receipt for it, w
 
 ---
 
+## Host & stack
+
+**The host is Kylene — a disclosed AI presenter, custom-built, stock-free.**
+- Built in HeyGen as a **unique generated avatar** (photo/text-prompt custom avatar on a paid
+  plan), never a stock-library character — stock faces appear in thousands of other videos
+  and will eventually surface selling something that torches our trust brand.
+- Voice: ElevenLabs, designed once, kept consistent; keep natural imperfections.
+- **Disclosure is identity:** "I'm Kylene, I'm an AI, and I test what AI companies claim."
+  Stated in every video and every description. The persona never claims to be human anywhere,
+  including comments. (The McCoy move, taken one step further — no human original at all.)
+
+**Tool stack (deliberately minimal — not the $400/mo automation stack):**
+| Job | Tool | Cost |
+|---|---|---|
+| Scripts | Claude (trained on our best-retaining scripts) | have |
+| Avatar | HeyGen custom generated avatar | have |
+| Voice | ElevenLabs | have |
+| Screen capture (the receipts ARE the B-roll) | OBS Studio | free |
+| Edit + captions | CapCut (Descript later if it earns it) | free |
+| Thumbnails | Canva (connected to the workspace) | have |
+| Charts/graphics | This repo's HTML system → 4K screenshot | free |
+| Title/CTR research | vidIQ or TubeBuddy free tier | free |
+| Music/SFX | YouTube Audio Library | free |
+
+Automation (n8n etc.) is **earned, not default** — only after the format is proven, and never
+past the cadence in rule 16.
+
+---
+
 ## Reference log
 
 | Date | Reference | What to steal | Status |
