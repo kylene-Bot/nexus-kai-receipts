@@ -26,6 +26,21 @@ locked, they don't change without a documented decision here.
 - **Freckles + natural skin texture** fight the over-smoothed "AI person" look, the #1 tell.
 - **No logos, minimal jewelry** keeps every frame reusable and thumbnail-safe.
 
+**Elevated variant (more striking, still advertiser-safe — the preferred starting point):**
+
+> Photorealistic strikingly beautiful woman in her early 30s, magnetic and confident,
+> direct eye contact with the camera, slight knowing smile. Long copper-auburn hair with
+> soft waves, light freckles, striking hazel eyes, defined cheekbones. Wearing a fitted
+> dark charcoal blazer over a simple silk top, no logos, delicate gold necklace. Framed
+> chest-up like a news presenter. Deep ink-blue studio background, softly out of focus,
+> warm amber rim light from the left. Soft glamour key lighting, shallow depth of field,
+> shot on a cinema camera, 4k, natural skin texture.
+
+**Boundary rule:** attractive yes, risqué no. The channel monetizes trust with a
+professional, purchase-intent audience; styling that reads flirty/suggestive gets the
+channel clustered with "AI girlfriend" content — wrong audience in, right audience out.
+Authoritative + magnetic is the target (the McCoy lesson).
+
 **Variation prompts (generate all three, compare):**
 1. Same prompt, but: *straight dark-brown hair with a single copper streak, olive skin tone.*
 2. Same prompt, but: *late 30s, glasses with thin amber frames, hair pulled back.*
