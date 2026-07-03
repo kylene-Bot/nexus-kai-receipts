@@ -146,9 +146,13 @@ Each premise names the receipt up front — if we can't save a receipt for it, w
 
 **Avatar rendering** (learned from the first Avatar V motion test, 2026-07)
 20. Longform renders are 16:9 (1920×1080); vertical 9:16 only for Shorts cuts.
-21. The cold open (first ~10s) must be an artifact-free, full-face render — re-roll until
-    clean. Lip-sync artifacts (held tongue, smeared consonants) vary per render of the same
-    inputs, so re-rolling is the fix, not prompt changes.
+21. The cold open (first ~10s) must be an artifact-free, full-face render. Two-render A/B
+    (2026-07) showed the "held tongue" idle artifact is **audio-locked, not render luck**:
+    it appears during long silences between sentences, identically across renders and
+    motion settings. Fixes, in order: (a) write on-camera passages as flowing sentences
+    with no long mid-scene silences; (b) when a dramatic pause is wanted, cover it with a
+    full-screen title card cut exactly on the pause; (c) split scenes per paragraph in
+    AI Studio so idles land on scene cuts. Re-rolling does NOT fix pause idles.
 22. After the cold open, b-roll/receipt overlays carry coverage — full-face time is the
     scrutiny window, so overlay during data reads by default.
 23. Voice renders at ~0.95× speed: gentler articulation gives HeyGen's sync fewer extreme
