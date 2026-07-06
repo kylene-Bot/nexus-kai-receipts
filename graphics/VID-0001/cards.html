@@ -1,0 +1,144 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>VID-0001 graphics pack — title cards</title>
+<style>
+  :root {
+    --ink: #101319; --ink-2: #171b23;
+    --paper: #f5f1e6; --paper-dim: #e9e4d5; --paper-ink: #232630; --paper-muted: #6f6a5c;
+    --amber: #e8a33d; --amber-ink: #2b1f08;
+    --text: #f2f0e9; --text-2: #9da1ab; --grid: #262b35;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: #000; font-family: var(--sans); }
+  .slide {
+    width: 1920px; height: 1080px;
+    background: radial-gradient(120% 140% at 50% 10%, #141926 0%, var(--ink) 60%);
+    color: var(--text);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+  }
+  .tag {
+    position: absolute; top: 56px; left: 64px;
+    font-family: var(--mono); font-size: 22px; letter-spacing: .22em;
+    text-transform: uppercase; color: var(--text-2);
+  }
+  .tag b { color: var(--amber); font-weight: 700; }
+  .frameno {
+    position: absolute; top: 56px; right: 64px;
+    font-family: var(--mono); font-size: 22px; color: var(--text-2); letter-spacing: .1em;
+  }
+  /* ------- typographic beat cards ------- */
+  .beat h1 {
+    font-size: 150px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.06;
+    text-align: center; max-width: 1520px; text-wrap: balance;
+  }
+  .beat .mark { background: var(--amber); color: var(--amber-ink); padding: 0 .14em;
+    box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+  .beat .sub {
+    margin-top: 42px; font-family: var(--mono); font-size: 30px; color: var(--text-2);
+    letter-spacing: .06em;
+  }
+  /* ------- receipt cards ------- */
+  .receipt {
+    background: var(--paper); color: var(--paper-ink);
+    font-family: var(--mono); width: 760px; padding: 44px 52px 56px;
+    box-shadow: 0 30px 80px rgba(0,0,0,.6); position: relative;
+  }
+  .receipt::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -13px; height: 13px;
+    background: conic-gradient(from -45deg at 50% 100%, var(--paper) 90deg, transparent 0)
+      0 0 / 26px 13px repeat-x;
+  }
+  .receipt .rhead { text-align: center; border-bottom: 2px dashed var(--paper-muted);
+    padding-bottom: 20px; margin-bottom: 26px; }
+  .receipt .rhead .t1 { font-size: 34px; font-weight: 700; letter-spacing: .18em; }
+  .receipt .rhead .t2 { font-size: 20px; color: var(--paper-muted); margin-top: 8px; }
+  .receipt table { width: 100%; border-collapse: collapse; font-size: 27px; }
+  .receipt td { padding: 13px 0; }
+  .receipt td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+  .receipt tr.total td { border-top: 2px dashed var(--paper-muted); padding-top: 22px;
+    font-weight: 700; font-size: 32px; }
+  .receipt tr.total .hl { background: var(--amber); color: var(--amber-ink); padding: 2px 10px; }
+  .receipt .rfoot { border-top: 2px dashed var(--paper-muted); margin-top: 26px;
+    padding-top: 16px; font-size: 18px; color: var(--paper-muted); text-align: center; }
+  .rules td:first-child { display: flex; gap: 18px; align-items: baseline; }
+  .rules .n { color: var(--paper-muted); font-size: 21px; }
+  /* ------- end card ------- */
+  .end h1 { font-size: 190px; font-weight: 800; letter-spacing: -0.02em; }
+  .end .repo {
+    margin-top: 48px; font-family: var(--mono); font-size: 38px;
+    background: var(--paper); color: var(--paper-ink); padding: 18px 34px;
+  }
+  .end .sub2 { margin-top: 40px; font-family: var(--mono); font-size: 26px; color: var(--text-2); }
+</style>
+
+<!-- Beat 1 — cut in on the pause after the first sentence -->
+<div class="slide beat" id="card-01">
+  <div class="tag"><b>KYLENE</b> · AI, TESTED. RECEIPTS INCLUDED.</div>
+  <div class="frameno">VID-0001 · CARD 01</div>
+  <h1>Every word you're hearing<br>was <span class="mark">written by an AI.</span></h1>
+</div>
+
+<!-- Beat 2 -->
+<div class="slide beat" id="card-02">
+  <div class="tag"><b>KYLENE</b> · AI, TESTED. RECEIPTS INCLUDED.</div>
+  <div class="frameno">VID-0001 · CARD 02</div>
+  <h1>This voice<br>was <span class="mark">generated.</span></h1>
+</div>
+
+<!-- Beat 3 -->
+<div class="slide beat" id="card-03">
+  <div class="tag"><b>KYLENE</b> · AI, TESTED. RECEIPTS INCLUDED.</div>
+  <div class="frameno">VID-0001 · CARD 03</div>
+  <h1>This face has<br><span class="mark">never existed.</span></h1>
+</div>
+
+<!-- Cost receipt — draft numbers, replace from receipt.json before publish -->
+<div class="slide" id="card-04">
+  <div class="tag"><b>KYLENE</b> · WHAT I COST, PER VIDEO</div>
+  <div class="frameno">VID-0001 · CARD 04</div>
+  <div class="receipt">
+    <div class="rhead">
+      <div class="t1">KYLENE · RECEIPT</div>
+      <div class="t2">cost per finished video · draft — final from receipt.json</div>
+    </div>
+    <table>
+      <tr><td>Script — Claude</td><td>$0.04</td></tr>
+      <tr><td>Voice — ElevenLabs</td><td>$0.22</td></tr>
+      <tr><td>Avatar render — HeyGen</td><td>$1.80</td></tr>
+      <tr><td>Edit — CapCut</td><td>$0.00</td></tr>
+      <tr class="total"><td>TOTAL</td><td><span class="hl">$2.06</span></td></tr>
+    </table>
+    <div class="rfoot">every number recomputes from the public repo · nexus-kai-receipts</div>
+  </div>
+</div>
+
+<!-- The four rules -->
+<div class="slide" id="card-05">
+  <div class="tag"><b>KYLENE</b> · THE RULES</div>
+  <div class="frameno">VID-0001 · CARD 05</div>
+  <div class="receipt rules">
+    <div class="rhead">
+      <div class="t1">HOUSE RULES</div>
+      <div class="t2">printed on every test we run</div>
+    </div>
+    <table>
+      <tr><td><span class="n">01</span>We never sell the thing we're testing</td></tr>
+      <tr><td><span class="n">02</span>Links only for tools that passed — failures get named</td></tr>
+      <tr><td><span class="n">03</span>Sponsors can't see results early or buy verdicts</td></tr>
+      <tr><td><span class="n">04</span>Every number recomputes from a public repo</td></tr>
+    </table>
+    <div class="rfoot">github.com/kylene-Bot/nexus-kai-receipts</div>
+  </div>
+</div>
+
+<!-- End card -->
+<div class="slide end" id="card-06">
+  <div class="tag"><b>KYLENE</b> · AI, TESTED. RECEIPTS INCLUDED.</div>
+  <div class="frameno">VID-0001 · CARD 06</div>
+  <h1>Go <span class="mark" style="background:var(--amber);color:var(--amber-ink);padding:0 .14em">check the work.</span></h1>
+  <div class="repo">github.com/kylene-Bot/nexus-kai-receipts</div>
+  <div class="sub2">subscribe if you want the receipts before you spend the money</div>
+</div>
